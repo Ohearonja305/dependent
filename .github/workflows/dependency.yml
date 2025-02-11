@@ -3,7 +3,7 @@ name: Workflow with multiple stage
 on: push
 
 jobs:
-  job-on-ubunto:
+  job-on-ubuntu:
     runs-on: unbuntu-latest
     steps:
       - run: date
